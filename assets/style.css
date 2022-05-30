@@ -448,7 +448,15 @@ nav.nav_social_media {
 }
 nav.nav_social_media a {
   font-size: 18px;
+  color: var(--purple-100);
+  transition: all 400ms;
 }
+
+nav.nav_social_media a:hover {
+  transform: scale(1.1);
+  color: var(--purple-hover);
+}
+
 ul.image-list {
   display: flex;
   flex-direction: column;
@@ -479,6 +487,12 @@ ul.image-list li figure img {
 .post_content h6 {
   font-size: 17px;
   margin-bottom: 10px;
+}
+.post_content h6 a {
+  color: var(--purple-100);
+}
+.post_content h6 a:hover {
+  color: var(--purple-hover);
 }
 
 .post_content .post-date,
